@@ -10,4 +10,4 @@ RUN git clone https://github.com/zaidka/genieacs-sim.git
 WORKDIR /opt/genieacs-sim
 RUN npm install
 
-CMD ["./opt/genieacs-sim/genieacs-sim","-u","http://genieacs:7547/"]
+CMD ["./genieacs-sim","-u","http://genieacs:7547/"]
