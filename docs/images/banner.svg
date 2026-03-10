@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="200" viewBox="0 0 900 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00838F"/>
+      <stop offset="100%" style="stop-color:#1A1A2E"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="900" height="200" rx="12" fill="url(#bg)"/>
+  <rect width="900" height="200" rx="12" fill="url(#grid)"/>
+  <!-- Router with signal waves icon -->
+  <g transform="translate(80, 100)" fill="none" stroke="rgba(255,255,255,0.9)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Router body -->
+    <rect x="-30" y="0" width="60" height="20" rx="4" fill="rgba(255,255,255,0.1)"/>
+    <!-- Antenna -->
+    <line x1="-10" y1="0" x2="-15" y2="-20"/>
+    <line x1="10" y1="0" x2="15" y2="-20"/>
+    <!-- LED indicators -->
+    <circle cx="-18" cy="10" r="2.5" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="-10" cy="10" r="2.5" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="-2" cy="10" r="2.5" fill="rgba(255,255,255,0.3)"/>
+    <circle cx="6" cy="10" r="2.5" fill="rgba(255,255,255,0.2)"/>
+    <!-- Signal waves from left antenna -->
+    <path d="M-25,-25 A 15,15 0 0,1 -5,-25" fill="none" opacity="0.4"/>
+    <path d="M-30,-32 A 22,22 0 0,1 0,-32" fill="none" opacity="0.3"/>
+    <!-- Signal waves from right antenna -->
+    <path d="M5,-25 A 15,15 0 0,1 25,-25" fill="none" opacity="0.4"/>
+    <path d="M0,-32 A 22,22 0 0,1 30,-32" fill="none" opacity="0.3"/>
+    <!-- Feet -->
+    <line x1="-20" y1="20" x2="-22" y2="26"/>
+    <line x1="20" y1="20" x2="22" y2="26"/>
+  </g>
+  <!-- Title -->
+  <text x="450" y="90" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">genieacs-sim-docker</text>
+  <!-- Subtitle -->
+  <text x="450" y="130" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">Docker for the GenieACS Simulator</text>
+</svg>
