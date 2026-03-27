@@ -7,7 +7,7 @@
 #   --push .                                                               #
 ############################################################################
 
-FROM node:24-alpine
+FROM node:25-alpine
 LABEL maintainer="acsdesk@protonmail.com"
 
 RUN apk update && apk upgrade && apk add git
