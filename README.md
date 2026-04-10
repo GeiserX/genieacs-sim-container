@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="docs/images/banner.svg" alt="genieacs-sim-docker Banner" width="900"/>
+  <img src="docs/images/banner.svg" alt="genieacs-sim-container Banner" width="900"/>
 </p>
 
-<h1 align="center">genieacs-sim-docker</h1>
+<h1 align="center">genieacs-sim-container</h1>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/github/license/GeiserX/genieacs-sim-docker" alt="License"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/GeiserX/genieacs-sim-container" alt="License"></a>
 </p>
 
 <p align="center">Docker for the GenieACS Simulator</p>

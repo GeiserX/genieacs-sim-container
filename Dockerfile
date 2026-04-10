@@ -3,7 +3,7 @@
 # GenieACS-SIM Dockerfile #
 ############################################################################
 # docker buildx build --platform linux/amd64,linux/arm64 \                 #
-#   -t drumsergio/genieacs-sim:version -t drumsergio/genieacs-sim:latest \ #
+#   -t drumsergio/genieacs-sim-container:version -t drumsergio/genieacs-sim-container:latest \ #
 #   --push .                                                               #
 ############################################################################
 

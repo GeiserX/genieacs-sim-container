@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 env:
-  DOCKER_IMAGE: drumsergio/genieacs-sim-docker
+  DOCKER_IMAGE: drumsergio/genieacs-sim-container
 
 jobs:
   build-and-push:

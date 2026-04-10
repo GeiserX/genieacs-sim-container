@@ -33,7 +33,7 @@
     <line x1="20" y1="20" x2="22" y2="26"/>
   </g>
   <!-- Title -->
-  <text x="450" y="90" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">genieacs-sim-docker</text>
+  <text x="450" y="90" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="1">genieacs-sim-container</text>
   <!-- Subtitle -->
   <text x="450" y="130" font-family="'Segoe UI', Roboto, Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)" text-anchor="middle">Docker for the GenieACS Simulator</text>
 </svg>
