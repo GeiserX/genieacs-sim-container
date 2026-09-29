@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/images/banner.svg" alt="genieacs-sim-container Banner" width="900"/>
+  <img src="https://raw.githubusercontent.com/GeiserX/genieacs-sim-container/main/docs/images/banner.svg" alt="genieacs-sim-container Banner" width="900"/>
 </p>
 
 <h1 align="center">genieacs-sim-container</h1>
