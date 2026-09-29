@@ -8,7 +8,7 @@ The simulator is upstream's [`genieacs-sim`](https://github.com/zaidka/genieacs-
 | `-u, --acs-url <url>` | `http://127.0.0.1:7547/` | The ACS URL to contact. The image's command sets `http://genieacs:7547/`. |
 | `-p, --processes <count>` | `1` | Number of devices to simulate, one process each. |
 | `-w, --wait <ms>` | `1000` | Delay between starting one device and the next. |
-| `-s, --serial <offset>` | `0` | Serial number offset. Devices get six-digit serials from the offset up: `000000`, `000001`... |
+| `-s, --serial <offset>` | `0` | Serial number offset. Devices get six-digit serials from the offset up: `000000`, `000001`... Only the last six digits are kept, so keep offset plus count at or below 1000000 or the serials wrap to `000000`. |
 | `-m, --data-model <file>` | the bundled CSV | The data model template, a CSV or JSON file. |
 
 `docker run --rm drumsergio/genieacs-sim-container:1.0.1 ./genieacs-sim --help` prints the same list.
