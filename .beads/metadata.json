@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "genieacs_sim_container",
+  "project_id": "0d8b8515-4bac-4a1a-b9a5-7d146c5f2dec"
+}
