@@ -11,6 +11,9 @@ FROM node:26-alpine
 LABEL maintainer="acsdesk@protonmail.com"
 
 RUN apk update && apk upgrade && apk add git
+# Node's built-in roots still trust the compromised eMudhra intermediates; verify
+# against the system bundle that `apk upgrade` just patched (20261020-r0 or newer).
+ENV NODE_OPTIONS=--use-openssl-ca
 
 WORKDIR /opt
 RUN git clone --depth 1 --single-branch \
